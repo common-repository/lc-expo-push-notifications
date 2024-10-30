@@ -1,0 +1,217 @@
+
+/* tabs */
+.lcwp_settings_tabs {
+	background: #7fc241 url("../img/lc_pattern.png") repeat fixed left 5px;
+	margin-top: 10px !important;
+	padding-top: 20px !important;	
+	border-radius: 3px 3px 0 0;
+}
+.lcwp_settings_tabs a.nav-tab {
+	font-size: 15px;
+    line-height: 32px;	
+}
+.lcwp_settings_tabs a.nav-tab:not(.nav-tab-active) {
+	background: #fafafa;
+	color: #696969;
+}
+.lcwp_settings_tabs a:active,
+.lcwp_settings_tabs a:focus {
+	box-shadow: none !important;	
+}
+
+
+/* section title */
+.lcwp_settings_sect_title {
+	border-bottom: 1px solid #dfdfdf;
+    font-size: 14px;
+    margin: 25px 0 0;
+    padding: 10px 0;
+}
+
+
+/* table */
+.lcwp_settings_table td {
+	background: #fdfdfd none repeat scroll 0 0;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #e9e9e9;
+    color: #444444;
+    overflow: visible;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    vertical-align: middle;	
+}
+.lcwp_sf_label {
+	width: 27%;
+}
+.lcwp_sf_field {
+	width: 250px;	
+}
+.lcwp_sf_note {
+	color: #999 !important;
+	font-family: sans-serif !important;
+    font-size: 12px !important;
+    font-style: italic !important;
+    vertical-align: middle !important;	
+}
+p.lcwp_sf_note {
+	margin: 10px 0 0 !important;	
+}
+.pc_paginator_td {
+	background-image: repeating-linear-gradient(-45deg, transparent, transparent 8px, #f7f7f7 8px, #f7f7f7 15px) !important;
+	font-weight: 600;
+    letter-spacing: 1px;
+}
+.lcwp_settings_submit {
+	margin-top: 35px !important;	
+}
+
+
+/* fields */
+.lcwp_sf_field select {
+    width: 80%;
+}
+.lcwp_sf_field input[type="text"], .lcwp_sf_field input[type="password"], 
+.lcwp_sf_field textarea {
+	width: 84%;	
+}
+
+
+/* fixed submit */
+.lcwp_settings_fixed_submit {
+	background: #f1f1f1;	
+	bottom: 0;
+    left: 160px;
+    padding: 16px 0 14px;
+    position: fixed;
+    right: 0;
+    z-index: 999;
+	box-shadow: 3px 0 6px rgba(0, 0, 0, 0.3);
+}
+.lcwp_settings_fixed_submit input {
+	left: 22px;
+    position: relative;
+	margin: 0 !important;
+}
+@media screen and (max-width: 960px) { 
+	.lcwp_settings_fixed_submit {	
+		left: 38px;
+	}
+}
+
+
+
+/* colpick */
+.lcwp_sf_colpick {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.lcwp_sf_colpick input {
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 0;
+    max-width: 110px;
+    min-width: 110px;
+    padding-right: 28px;
+    width: 110px;
+}
+.lcwp_sf_colpick .lcwp_sf_colblock {
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    height: 98%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 29px;
+}
+
+
+/* chosen */
+.lcwp_sf_field .chosen-container-multi li.search-field input {
+	min-height: 25px;	
+	min-width: 108px;
+}
+.lcwp_sf_field .chosen-container-multi .chosen-drop {
+	min-width: 200px;	
+}
+
+
+/* codemirror */
+.lcwp_sf_field .CodeMirror {
+	height: auto;
+}
+.lcwp_sf_field .CodeMirror-scroll {
+	min-height: 150px;		
+}
+
+
+/* jQuery UI slider */
+.lcwp_sf_slider_wrap {
+	position: relative;
+    text-align: left;
+	
+	height: 8px;
+	background: #ccc none repeat scroll 0 0;
+    border-radius: 5px;	
+	
+	float: left;
+    margin: 13px 20px 10px 10px;
+	
+	display: inline-block;
+    padding: 0;
+    width: 57%;
+	font-size: 1em;
+}
+.lcwp_sf_slider_wrap .ui-slider-range {
+	left: 0;
+	height: 100%;
+    top: 0;
+	
+	border: 0 none;
+    display: block;
+    position: absolute;
+    z-index: 1;	
+	
+	background: #7fc241;
+    border-radius: 5px;
+}
+.lcwp_sf_slider_wrap .ui-slider-handle {
+	background: #fff;
+    border: 1px solid #b4b4b4;
+    border-radius: 100%;
+    color: #555;
+    cursor: grab;
+    font-weight: normal;
+    height: 18px;
+    margin-left: -12px;
+    position: absolute;
+    top: -6px;
+    width: 18px;
+    z-index: 2;
+}
+.lcwp_sf_slider_wrap .ui-slider-handle:active {
+	cursor: move; /* fallback if grab cursor is unsupported */
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+}
+.lcwp_sf_slider_wrap .ui-slider-handle:before {
+	content: "";
+	width: 6px;
+	height: 6px;
+	display: block;
+	border-radius: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -3px;
+	margin-top: -3px;
+	background:	#7fc241;
+}
+.lcwp_sf_slider_input {
+	margin-left: 3px;
+    margin-top: 2px;
+    text-align: center;
+    width: 50px;
+	max-width: 50px;	
+}

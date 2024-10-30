@@ -1,0 +1,597 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LC Expo Push Notifications\n"
+"POT-Creation-Date: 2021-01-15 12:35+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: LCweb\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin_ajax.php:39 settings/view.php:316
+msgid "Error emptying the database"
+msgstr ""
+
+#: admin_ajax.php:60 cpt_fields.php:159
+msgid "Error deleting the notification"
+msgstr ""
+
+#: admin_menu.php:9
+msgid "Settings"
+msgstr ""
+
+#: admin_menu.php:23 admin_menu.php:38
+msgid "Notifications"
+msgstr ""
+
+#: admin_menu.php:39
+msgid "Notification"
+msgstr ""
+
+#: admin_menu.php:40 admin_menu.php:41
+msgid "Add New Notification"
+msgstr ""
+
+#: admin_menu.php:42
+msgid "Edit Notification"
+msgstr ""
+
+#: admin_menu.php:43
+msgid "New Notification"
+msgstr ""
+
+#: admin_menu.php:44
+msgid "View Notification"
+msgstr ""
+
+#: admin_menu.php:45
+msgid "Search Notifications"
+msgstr ""
+
+#: admin_menu.php:46
+msgid "No notifications found"
+msgstr ""
+
+#: admin_menu.php:47
+msgid "No notifications found in Trash"
+msgstr ""
+
+#: admin_menu.php:48
+msgid "Parent Notification:"
+msgstr ""
+
+#: admin_menu.php:49
+msgid "LC Expo Push Notifications"
+msgstr ""
+
+#: admin_menu.php:74 admin_menu.php:88
+msgid "Notification Categories"
+msgstr ""
+
+#: admin_menu.php:75
+msgid "Notification Category"
+msgstr ""
+
+#: admin_menu.php:76
+msgid "Search Notification Categories"
+msgstr ""
+
+#: admin_menu.php:78
+msgid "All Notification Categories"
+msgstr ""
+
+#: admin_menu.php:79
+msgid "Parent Notification Category"
+msgstr ""
+
+#: admin_menu.php:80
+msgid "Parent Notification Category:"
+msgstr ""
+
+#: admin_menu.php:81
+msgid "Edit Notification Category"
+msgstr ""
+
+#: admin_menu.php:82
+msgid "Update Notification Category"
+msgstr ""
+
+#: admin_menu.php:83
+msgid "Add New Notification Category"
+msgstr ""
+
+#: admin_menu.php:84
+msgid "New Notification Category"
+msgstr ""
+
+#: admin_menu.php:85
+msgid "Separate notification categories with commas"
+msgstr ""
+
+#: admin_menu.php:86
+msgid "Add or remove notification Categories"
+msgstr ""
+
+#: admin_menu.php:87
+msgid "Choose from most used notification categories"
+msgstr ""
+
+#: admin_menu.php:131 admin_menu.php:132 admin_menu.php:134
+msgid "Notification updated"
+msgstr ""
+
+#: admin_menu.php:133
+msgid "Notification deleted"
+msgstr ""
+
+#: admin_menu.php:136
+#, php-format
+msgid "Notification restored to revision from %s"
+msgstr ""
+
+#: admin_menu.php:137
+msgid "Notification published"
+msgstr ""
+
+#: admin_menu.php:138
+msgid "Notification saved"
+msgstr ""
+
+#: admin_menu.php:139
+msgid "Notification submitted"
+msgstr ""
+
+#: admin_menu.php:140
+#, php-format
+msgid "Notification scheduled for: <strong>%1$s</strong>"
+msgstr ""
+
+#: admin_menu.php:140
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: admin_menu.php:141
+msgid "Notification draft updated"
+msgstr ""
+
+#: admin_menu.php:158
+msgid "Title"
+msgstr ""
+
+#: admin_menu.php:159
+msgid "Text"
+msgstr ""
+
+#: admin_menu.php:160
+msgid "Categories"
+msgstr ""
+
+#: admin_menu.php:161
+msgid "Date"
+msgstr ""
+
+#: admin_menu.php:229
+msgid "Any category"
+msgstr ""
+
+#: classes/simple_form_validator.php:327
+msgid "minimum value is"
+msgstr ""
+
+#: classes/simple_form_validator.php:340
+msgid "maximum value is"
+msgstr ""
+
+#: classes/simple_form_validator.php:353
+msgid "must be at least of"
+msgstr ""
+
+#: classes/simple_form_validator.php:353 classes/simple_form_validator.php:379
+msgid "characters"
+msgstr ""
+
+#: classes/simple_form_validator.php:366
+msgid "maximum"
+msgstr ""
+
+#: classes/simple_form_validator.php:366
+msgid "characters allowed"
+msgstr ""
+
+#: classes/simple_form_validator.php:379
+msgid "has to be long"
+msgstr ""
+
+#: classes/simple_form_validator.php:423
+msgid "Select"
+msgstr ""
+
+#: classes/simple_form_validator.php:423
+msgid "options"
+msgstr ""
+
+#: classes/simple_form_validator.php:435
+msgid "Maximum"
+msgstr ""
+
+#: classes/simple_form_validator.php:435
+msgid "options allowed"
+msgstr ""
+
+#: classes/simple_form_validator.php:511
+msgid "are required"
+msgstr ""
+
+#: classes/simple_form_validator.php:511
+msgid "is required"
+msgstr ""
+
+#: classes/simple_form_validator.php:515
+msgid "are not valid integers"
+msgstr ""
+
+#: classes/simple_form_validator.php:515
+msgid "is not a valid integer"
+msgstr ""
+
+#: classes/simple_form_validator.php:519
+msgid "are not valid floating numbers"
+msgstr ""
+
+#: classes/simple_form_validator.php:519
+msgid "is not a valid floating number"
+msgstr ""
+
+#: classes/simple_form_validator.php:523
+msgid "are not valid e-mail addresses"
+msgstr ""
+
+#: classes/simple_form_validator.php:523
+msgid "is not a valid e-mail address"
+msgstr ""
+
+#: classes/simple_form_validator.php:527
+msgid "are not valid dates"
+msgstr ""
+
+#: classes/simple_form_validator.php:527
+msgid "is not a valid date"
+msgstr ""
+
+#: classes/simple_form_validator.php:531
+msgid "are not valid times"
+msgstr ""
+
+#: classes/simple_form_validator.php:531
+msgid "is not a valid time"
+msgstr ""
+
+#: classes/simple_form_validator.php:535
+msgid "are not valid urls"
+msgstr ""
+
+#: classes/simple_form_validator.php:535
+msgid "is not a valid url"
+msgstr ""
+
+#: classes/simple_form_validator.php:539
+msgid "are not valid hexadecimal colors"
+msgstr ""
+
+#: classes/simple_form_validator.php:539
+msgid "is not a valid hexadecimal color"
+msgstr ""
+
+#: classes/simple_form_validator.php:543
+msgid "are not valid IP addresses"
+msgstr ""
+
+#: classes/simple_form_validator.php:543
+msgid "is not a valid IP address"
+msgstr ""
+
+#: classes/simple_form_validator.php:547
+msgid "are not valid ZIP codes"
+msgstr ""
+
+#: classes/simple_form_validator.php:547
+msgid "is not a valid ZIP code"
+msgstr ""
+
+#: classes/simple_form_validator.php:551
+msgid "are not valid telephone numbers"
+msgstr ""
+
+#: classes/simple_form_validator.php:551
+msgid "is not a valid telephone number"
+msgstr ""
+
+#: classes/simple_form_validator.php:554
+msgid "invalid data inserted"
+msgstr ""
+
+#: classes/simple_form_validator.php:558
+msgid "values are not between the allowed"
+msgstr ""
+
+#: classes/simple_form_validator.php:558
+msgid "value is not between the allowed"
+msgstr ""
+
+#: classes/simple_form_validator.php:562
+msgid "values are between the forbidden"
+msgstr ""
+
+#: classes/simple_form_validator.php:562
+msgid "values is between the forbidden"
+msgstr ""
+
+#: classes/simple_form_validator.php:565
+msgid "the value doesn't match"
+msgstr ""
+
+#: classes/simple_form_validator.php:568
+msgid "file size is wrong"
+msgstr ""
+
+#: cpt_fields.php:25
+msgid "Notification content"
+msgstr ""
+
+#: cpt_fields.php:30
+msgid "Publication date and time"
+msgstr ""
+
+#: cpt_fields.php:34
+msgid "at"
+msgstr ""
+
+#: cpt_fields.php:47
+msgid "Extra parameters"
+msgstr ""
+
+#: cpt_fields.php:71
+msgid "not set"
+msgstr ""
+
+#: cpt_fields.php:110
+msgid "Status"
+msgstr ""
+
+#: cpt_fields.php:110
+msgid "Scheduled"
+msgstr ""
+
+#: cpt_fields.php:110
+msgid "Published"
+msgstr ""
+
+#: cpt_fields.php:120
+msgid "Notification sent"
+msgstr ""
+
+#: cpt_fields.php:126
+msgid "Delete"
+msgstr ""
+
+#: cpt_fields.php:135
+msgid "Do you really want to definitively delete the notification?"
+msgstr ""
+
+#: cpt_fields.php:148
+msgid "Notification successfully deleted!"
+msgstr ""
+
+#: cpt_fields.php:172
+msgid "You can't edit an already submitted notification"
+msgstr ""
+
+#: cpt_fields.php:176
+msgid "Please insert a title"
+msgstr ""
+
+#: cpt_fields.php:180
+msgid "Title too long"
+msgstr ""
+
+#: cpt_fields.php:184
+msgid "Please insert some content"
+msgstr ""
+
+#: cpt_fields.php:188
+msgid "Contents too long"
+msgstr ""
+
+#: cpt_fields.php:204
+msgid "Please use a future date"
+msgstr ""
+
+#: settings/custom_fields.php:13
+msgid "registered device tokens"
+msgstr ""
+
+#: settings/custom_fields.php:33
+msgid "Key"
+msgstr ""
+
+#: settings/custom_fields.php:33
+msgid "changing key name you will lose related notification data"
+msgstr ""
+
+#: settings/custom_fields.php:34
+msgid "Type"
+msgstr ""
+
+#: settings/custom_fields.php:35
+msgid "Internal name"
+msgstr ""
+
+#: settings/custom_fields.php:36
+msgid "Values (one per line)"
+msgstr ""
+
+#: settings/custom_fields.php:67 settings/view.php:214
+msgid "delete parameter"
+msgstr ""
+
+#: settings/custom_fields.php:73 settings/view.php:220
+msgid "text"
+msgstr ""
+
+#: settings/custom_fields.php:74 settings/view.php:221
+msgid "select"
+msgstr ""
+
+#: settings/custom_fields.php:75 settings/view.php:222
+msgid "multi-select"
+msgstr ""
+
+#: settings/settings_engine.php:124
+msgid "Update Options"
+msgstr ""
+
+#: settings/settings_engine.php:259
+msgid "Password already set!"
+msgstr ""
+
+#: settings/settings_engine.php:260
+msgid "change password"
+msgstr ""
+
+#: settings/settings_engine.php:290
+msgid "Select an option"
+msgstr ""
+
+#: settings/structure.php:10
+msgid "Main Options"
+msgstr ""
+
+#: settings/structure.php:52
+msgid "Endpoints"
+msgstr ""
+
+#: settings/structure.php:56
+msgid "Cronjob endpoint"
+msgstr ""
+
+#: settings/structure.php:60
+msgid "copy to clipboard"
+msgstr ""
+
+#: settings/structure.php:61
+msgid "open in a new tab"
+msgstr ""
+
+#: settings/structure.php:65
+msgid "Register token endpoint"
+msgstr ""
+
+#: settings/structure.php:70
+msgid "Remove token endpoint"
+msgstr ""
+
+#: settings/structure.php:76
+msgid "Reset endpoint key"
+msgstr ""
+
+#: settings/structure.php:83
+msgid "Notification parameters declaration"
+msgstr ""
+
+#: settings/structure.php:83
+msgid "Add parameter"
+msgstr ""
+
+#: settings/structure.php:95
+msgid "Extra"
+msgstr ""
+
+#: settings/structure.php:99
+msgid "Google Analytics Tracking ID"
+msgstr ""
+
+#: settings/structure.php:99
+msgid "how to find it?"
+msgstr ""
+
+#: settings/structure.php:104
+msgid ""
+"Once saved, the plugin will create an event whenever a new token is added to "
+"the database"
+msgstr ""
+
+#: settings/structure.php:108
+msgid "Empty the database"
+msgstr ""
+
+#: settings/view.php:18
+msgid "LC Expo Push Notifications Settings"
+msgstr ""
+
+#: settings/view.php:48 settings/view.php:55 settings/view.php:60
+msgid "Notification parameters"
+msgstr ""
+
+#: settings/view.php:48
+msgid "values don't match"
+msgstr ""
+
+#: settings/view.php:55
+msgid "one or more keys are empty or duplicate"
+msgstr ""
+
+#: settings/view.php:60
+msgid "one or more names or values are empty"
+msgstr ""
+
+#: settings/view.php:127
+msgid "Options saved"
+msgstr ""
+
+#: settings/view.php:173
+msgid "URL copied to clipboard"
+msgstr ""
+
+#: settings/view.php:197
+msgid "Please enter the new parameter key"
+msgstr ""
+
+#: settings/view.php:208
+msgid "Key already existing"
+msgstr ""
+
+#: settings/view.php:244
+msgid "Do you really want to remove this parameter?"
+msgstr ""
+
+#: settings/view.php:258
+msgid "WARNING: actual endpoints will stop working. Do you want to continue?"
+msgstr ""
+
+#: settings/view.php:274
+msgid "Key resetted successfully!"
+msgstr ""
+
+#: settings/view.php:282
+msgid "Error resetting the key"
+msgstr ""
+
+#: settings/view.php:294
+msgid "WARNING: stored tokens will be totally deleted. Continue?"
+msgstr ""
+
+#: settings/view.php:308
+msgid "Database successfully emptied!"
+msgstr ""
+
+#: settings/view.php:586
+msgid "One or more errors occurred"
+msgstr ""
